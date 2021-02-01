@@ -6,9 +6,9 @@ namespace GameProjecttt
 {
    public interface IGameCampaign
     {
-        void StudentCampaing(Gamer gamer);
-        void BlackFriday(Gamer gamer);
-        bool PayCashSold(Gamer gamer);
+        void StudentCampaing(Gamer gamer , Game game);
+        void BlackFriday(Gamer gamer , Game game);
+        bool PayCashSold(Gamer gamer , Game game);
         void PayCashSold(bool v);
     }
 }
